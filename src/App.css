@@ -24,6 +24,8 @@
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
   color: var(--text-strong);
   text-decoration: none;
   font-family: var(--font-main);
@@ -31,6 +33,12 @@
   letter-spacing: -0.02em;
   font-weight: 900;
   text-transform: none;
+}
+
+.brand-logo {
+  display: block;
+  width: auto;
+  height: 28px;
 }
 
 .nav-links {

@@ -23,7 +23,7 @@ export function SiteHeader({ animated = false }) {
     <header className="site-header" id={location.pathname === '/' ? 'top' : undefined}>
       <nav className={topbarClassName} aria-label="Primary">
         <a className="brand" href={location.pathname === '/' ? '#top' : '/'}>
-          {nav.brand ?? 'Emma Shechtman'}
+          <img className="brand-logo" src="/es-logo.png" alt={nav.brand ?? 'Emma Shechtman'} />
         </a>
 
         <div className="nav-links">
